@@ -1,2 +1,5 @@
 # Algorithms
-刷一些题
+
+|Title|Solution|   
+|-----|--------|
+|Array|[TwoSum]()|
