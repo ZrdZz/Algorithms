@@ -2,4 +2,4 @@
 
 |Title|Solution|   
 |-----|--------|
-|Array|[TwoSum]()|
+|Array|[TwoSum](Algorithms/TwoSum.js)|
