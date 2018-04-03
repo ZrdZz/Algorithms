@@ -2,6 +2,6 @@
 
 |Title|Solution|   
 |-----|--------|
-|Array|[TwoSum](../../blob/master/TwoSum.js)|
-|LinkedList|[AddTwoNums](../../blob/master/AddTwoNums.js) [RemoveNthNodeFromEndOfList](../../blob/master/RemoveNthNodeFromEndOfList.js)|
-|String|[LongestPalindromicSubstr](../../blob/master/LongestPalindromicSubstr.js) [LongestSubstrNoRepeatCharacters](../../blob/master/LongestSubstrNoRepeatCharacters.js)|
+|Array|[2](../../blob/master/2.TwoSum.js)|
+|LinkedList|[1](../../blob/master/1.AddTwoNums.js) [7](../../blob/master/7.RemoveNthNodeFromEndOfList.js)|
+|String|[3](../../blob/master/3.LongestPalindromicSubstr.js) [4](../../blob/master/4.LongestSubstrNoRepeatCharacters.js)|
