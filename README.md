@@ -7,6 +7,7 @@
 |          |[6(1)](../../blob/master/6.RemoveDuplicateSortedList1.js) [6(2)](../../blob/master/6.RemoveDuplicateSortedList2.js) |
 |          |[7](../../blob/master/7.RemoveNthNodeFromEndOfList.js)  [9](../../blob/master/9.RotateList.js) |  
 |          |[10](../../blob/master/10.PartitionList.js)  [11](../../blob/master/11.ReverseLinkedList.js) | 
-|          |[12](../../blob/master/12.ConvertSortListToBST.js) |
+|          |[12](../../blob/master/12.ConvertSortListToBST.js) [13](../../blob/master/13.CopyRandomList.js) |
+|          |[14](../../blob/master/14.LinkListCycle.js) [15](../../blob/master/15.LinkListCycle.js) |
 |String|[3](../../blob/master/3.LongestPalindromicSubstr.js)  [4](../../blob/master/4.LongestSubstrNoRepeatCharacters.js) |  
 |      |[8](../../blob/master/8.ReverseInteger.js)|
