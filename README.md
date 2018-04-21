@@ -9,6 +9,6 @@
 |          |[10](../../blob/master/10.PartitionList.js)  [11](../../blob/master/11.ReverseLinkedList.js) | 
 |          |[12](../../blob/master/12.ConvertSortListToBST.js) [13](../../blob/master/13.CopyRandomList.js) |
 |          |[14](../../blob/master/14.LinkListCycle.js) [15](../../blob/master/15.LinkListCycle.js) |
-|          |[16](../../blob/master/16.ReordList.js) |
+|          |[16](../../blob/master/16.ReordList.js) [17](../../blob/master/17.InsertSortList.js)|
 |String|[3](../../blob/master/3.LongestPalindromicSubstr.js)  [4](../../blob/master/4.LongestSubstrNoRepeatCharacters.js) |  
 |      |[8](../../blob/master/8.ReverseInteger.js)|
