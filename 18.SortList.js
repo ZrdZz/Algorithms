@@ -1,9 +1,12 @@
+//对链表排序, 时间复杂度为O(nlogn), 空间复杂度为常数O(n), 可以使用归并排序
+
 var sortList = function(head) {
     if(head === null || head.next === null){
         return head
     }
     
-    let fast = head,
+    //利用快慢指针将链表分为两半
+    let fast = head.next,
         slow = head;
     while(fast && fast.next){
         fast = fast.next.next;
@@ -24,7 +27,7 @@ var merge = function(left, right){
         dummy = result;
     
     while(left && right){
-        if(left > right){
+        if(left.val > right.val){
             dummy.next = right;
             right = right.next;
             dummy = dummy.next;
