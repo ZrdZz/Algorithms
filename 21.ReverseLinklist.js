@@ -19,6 +19,7 @@ var reverseList = function(head) {
     let node = null;
     
     while(head){
+        //把当前节点的下一个节点保存下来
         let last = head.next;
         head.next = node;
         node = head;
