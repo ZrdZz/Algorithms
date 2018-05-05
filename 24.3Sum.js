@@ -25,10 +25,7 @@ var threeSum = function (nums) {
         while (s < e) {
             let target = -arr[i];
             if (arr[s] + arr[e] === target) {
-                let res = [];
-                res.push(arr[i]);
-                res.push(arr[s]);
-                res.push(arr[e]);
+                let res = [arr[i], arr[s], arr[e]];
                 result.push(res);
                 while (s < e && arr[s] === arr[s + 1]) {
                     s++;
