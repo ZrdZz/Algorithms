@@ -13,6 +13,7 @@
 |          |[18](../../blob/master/18.SortList.js) [19](../../blob/master/19.IntersectionOfTwoLinkList.js)|
 |          |[20](../../blob/master/20.RemoveLinkListEle.js) [21](../../blob/master/21.PalindromeLinkList.js)|
 |          |[22](../../blob/master/22.DeleteNode.js) [23](../../blob/master/23.ReverseLinklist.js)|
-
+|          |[24](../../blob/master/24.3Sum.js) [25](../../blob/master/25.NextPermutation.js)|
+|          |[26](../../blob/master/26.SearchRotateSortArr.js) |
 |String|[3](../../blob/master/3.LongestPalindromicSubstr.js)  [4](../../blob/master/4.LongestSubstrNoRepeatCharacters.js) |  
 |      |[8](../../blob/master/8.ReverseInteger.js)|
