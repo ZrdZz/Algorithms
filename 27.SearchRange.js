@@ -11,12 +11,14 @@ var searchRange = function(nums, target) {
       right = nums.length - 1,
       result = [-1, -1];
   
+  // 先找到左边界
   while(left <= right){
       let middle = Math.floor((left + right) / 2);
       
       if(nums[middle] < target){
           left = middle + 1;
       }else{
+          // 相等时, 移动right, 这样到最后, right就是所求的左边界, 注意边界问题
           right = middle - 1;
       }
   }
@@ -25,13 +27,13 @@ var searchRange = function(nums, target) {
       return result
   }
   
-  //先找到左边界
   result[0] = right + 1;
   
+  // 找右边界
   right = nums.length - 1;
   while(left <= right){
       let middle = Math.floor((left + right) / 2);
-      
+      // 相等时移动left, 这样到最后, left就是所求的右边界 
       if(nums[middle] <= target){
           left = middle + 1;
       }else{
