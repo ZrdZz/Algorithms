@@ -1,3 +1,5 @@
+//和上一题类似, 只是对于一个元素不能重复选择
+
 /**
  * @param {number[]} candidates
  * @param {number} target
