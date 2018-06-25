@@ -43,25 +43,25 @@ function TreeDepth(pRoot) {
     return 0
   }
 
-  let stack = [pRoot]
+  let queue = [pRoot]
   let depth = 0
   let count = 0
   let nextCount = 1
 
-  while (stack.length) {
-    let node = stack.shift()
+  while (queue.length) {
+    let node = queue.shift()
     count++
 
     if (node.left) {
-      stack.push(node.left)
+      queue.push(node.left)
     }
     if (node.right) {
-      stack.push(node.right)
+      queue.push(node.right)
     }
-    // 每一次相等时, 每一层节点都已从栈中取出
+    // 每一次相等时, 每一层节点都已从队列中取出
     if (count === nextCount) {
       count = 0
-      nextCount = stack.length
+      nextCount = queue.length
       depth++
     }
   }
